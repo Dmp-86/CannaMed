@@ -5,13 +5,11 @@
     padding: 0;
     border: none;
 }
-
 body{
     font-family: Roboto, sans-serif; 
     font-weight: 300;
     color:#3a3a3a;
 }
-
 /* headings and logo styling */
 
 h1, h2{
@@ -20,38 +18,46 @@ h1, h2{
     letter-spacing: 4px;
     color: #252525;
 }
-
 #logo{
     float:left;
     font-size: 280%;
 }
-
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
 }
-
 #menu, #logo{
     line-height: 75px;
 }
-
 #menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a{
     text-decoration: none;
     color: inherit;
 
 }
-
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 
 }
-
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/cannamed1.png') no-repeat center center;
+
 }
