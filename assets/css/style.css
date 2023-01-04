@@ -60,4 +60,20 @@ h1, h2{
     width: 100%;
     background: url('../images/cannamed1.png') no-repeat center center;
 
+
+
+/* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
