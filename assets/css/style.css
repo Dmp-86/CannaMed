@@ -12,7 +12,7 @@ body{
 }
 /* headings and logo styling */
 
-h1, h2{
+h1, h2, h3{
     font-family: Oswald, sans-serif;
     text-transform:uppercase;
     letter-spacing: 4px;
@@ -72,7 +72,7 @@ h1, h2{
 /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -88,6 +88,7 @@ h1, h2{
 /* main info styling */
 #main-info h2{
     color: forestgreen;
+    
 }
 
 /* testimonials */
