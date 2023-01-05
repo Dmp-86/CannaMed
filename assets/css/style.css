@@ -84,3 +84,8 @@ h1, h2{
         transform: scale(1.1);
     }
 }
+
+/* main info styling */
+#main-info h2{
+    color: forestgreen;
+}
