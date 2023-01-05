@@ -21,6 +21,7 @@ h1, h2{
 #logo{
     float:left;
     font-size: 280%;
+    margin-left: 20px;
 }
 
 #logo:hover{
