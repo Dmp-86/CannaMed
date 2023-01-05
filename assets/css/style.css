@@ -22,6 +22,10 @@ h1, h2{
     float:left;
     font-size: 280%;
 }
+
+#logo:hover{
+    color: forestgreen;
+}
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -40,7 +44,9 @@ h1, h2{
 
 }
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    font-size:110%;
 
 }
 .active{
