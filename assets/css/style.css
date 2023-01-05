@@ -89,3 +89,8 @@ h1, h2{
 #main-info h2{
     color: forestgreen;
 }
+
+/* testimonials */
+#testimonials{
+    color: red;
+}
