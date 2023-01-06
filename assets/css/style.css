@@ -92,6 +92,12 @@ h1, h2, h3{
 }
 
 /* testimonials */
-#testimonials{
+#testimonials span{
     color: red;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 4px;
+    border: 1px solid blue;    
+    background-color: yellow;
 }
