@@ -110,6 +110,12 @@ footer {
 #main-info{
     background-color: blanchedalmond;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 #main-info h2{
     color: forestgreen;
@@ -120,8 +126,11 @@ footer {
 
 .steps{
     height: 600px;
-    width: 1200px;
-    background-image: url('../images/CBDBanner-1.webp') no-repeat center center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: ('../images/CBDBanner-1.webp') no-repeat center center;
     background-color: bisque ;
 }
 
