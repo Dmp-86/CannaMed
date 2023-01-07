@@ -77,10 +77,16 @@ footer {
 }
 /* hero image */
 
+#hero-cover, #hero-cover h2{
+    color: #fff;
+}
+
 #hero-outer{
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image{
@@ -124,6 +130,11 @@ footer {
 
 /* patient journey styling */
 
+.steps li{
+    list-style-type: none;
+}
+
+
 .steps{
     height: 600px;
     width: 100%;
@@ -132,6 +143,7 @@ footer {
     margin-right: auto;
     background-image: ('../images/CBDBanner-1.webp') no-repeat center center;
     background-color: bisque ;
+    
 }
 
 #patient-journey{
@@ -156,13 +168,14 @@ footer {
     width: 33%;
     margin:0 1px;
     display: inline-block;
+    
 }
 
 #consult{
     padding-top: 30px;
     width: 33%;
     float: right;
-    margin:0 1px;
+    margin:0 auto;
     display: inline-block;
 }
 
@@ -182,4 +195,25 @@ footer {
 
 .quotes{
     display: inline;
+}
+
+
+#hero-cover{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(111, 241, 107, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
