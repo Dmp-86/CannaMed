@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
 *{
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     border: none;
 }
@@ -217,4 +217,17 @@ footer {
     right: 150px;
 
     position: absolute;
+}
+
+/* gallery */
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img{
+    width: 100%;
+
 }
