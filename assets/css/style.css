@@ -134,8 +134,6 @@ footer {
     height: 600px;
     width: 100%;
     background:white url('../images/CBDBanner-1.webp') no-repeat center center;
-    
-
 }
 .steps li{
     list-style-type: none;
@@ -143,13 +141,11 @@ footer {
 
 
 .steps{
-    height: 600px;
-    width: 100%;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: bisque ;
-    
 }
 
 #patient-journey{
@@ -157,7 +153,6 @@ footer {
     width: 100%;
     display: inline;
     padding: 0;
-    margin: 2px;
     overflow: hidden;
 }
 
