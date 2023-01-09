@@ -1,58 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0;
     border: none;
 }
-body{
-    font-family: Roboto, sans-serif; 
+
+body {
+    font-family: Roboto, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;                                                           
+    color: #3a3a3a;
 }
 
 /* headings and logo styling */
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: Oswald, sans-serif;
-    text-transform:uppercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: forestgreen;
 }
 
-#logo{
-    float:left;
+#logo {
+    float: left;
     font-size: 280%;
     margin-left: 20px;
 }
 
-#logo:hover{
+#logo:hover {
     color: forestgreen;
 }
-#menu{
+
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo{
+
+#menu,
+#logo {
     line-height: 75px;
 }
-#menu li{
+
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-#menu a{
+
+#menu a {
     text-decoration: none;
     color: inherit;
-
 }
-#menu a:hover{
+
+#menu a:hover {
     border-bottom: 2px solid forestgreen;
     color: forestgreen;
-    font-size:110%;
-
+    font-size: 110%;
 }
-.active{
+
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -61,61 +70,62 @@ footer {
     width: 100%;
 }
 
-.socials{
+.socials {
     text-align: center;
 }
 
-.socials > li{
+.socials>li {
     display: inline;
 }
 
-.socials i{
+.socials i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 /* hero image */
 
-#hero-cover, #hero-cover h2{
+#hero-cover,
+#hero-cover h2 {
     color: #fff;
 }
 
-#hero-outer{
-    height: 600px;
+#hero-outer {
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/cannamed1.png') no-repeat center center;
 
 
-
 /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode:forwards;
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode:forwards;
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
 /* main info styling */
-#main-info{
+#main-info {
     background-color: blanchedalmond;
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -123,94 +133,92 @@ footer {
     width: 50%;
 }
 
-#main-info h2{
+#main-info h2 {
     color: forestgreen;
-    
+
 }
 
 /* patient journey styling */
 
-.steps{
-    height: 600px;
-    width: 100%;
-    background:white url('../images/CBDBanner-1.webp') no-repeat center center;
+.steps {
+    width: calc(100%/3);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: white;
+    /* float: left; */
+    margin: 5px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    padding: 1em;
 }
-.steps li{
+
+#patient-steps {
+    display: flex;
+    flex-direction: row;
+}
+
+.steps li {
     list-style-type: none;
 }
 
-
-.steps{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: bisque ;
-}
-
-#patient-journey{
-    height: 600px;
+#patient-journey {
     width: 100%;
-    display: inline;
     padding: 0;
-    overflow: hidden;
+    background: white url('../images/CBDBanner-1.webp') no-repeat center center;
 }
 
-#starting{
+/* #starting{
     padding-top: 30px;
     width: 33%;
     float: left;
     margin:0 1px;
     display: inline-block;
-}
+} */
 
-#preparing{
+/* #preparing{
     padding-top: 30px;
     width: 33%;
     margin:0 1px;
     display: inline-block;
-    
-}
+} */
 
-#consult{
+/* #consult{
     padding-top: 30px;
     width: 33%;
     float: right;
     margin:0 auto;
     display: inline-block;
-}
+} */
 
 
 /* testimonials */
 
-#testimonials{
+#testimonials {
     width: 100%;
-    height: 300px;
     text-align: left;
-    border: 1px solid blue;    
+    border: 1px solid blue;
     background-color: yellow;
-    color:#252525;
+    color: #252525;
     margin: 0;
     padding: 1px;
 }
 
-.quotes{
+.quotes {
     display: inline;
 }
 
 
-#hero-cover{
+#hero-cover {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 300px;
-    height: 200px;
+    /* height: 200px; */
 
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(111, 241, 107, 0.8);
 
     bottom: 30px;
@@ -220,19 +228,17 @@ footer {
 }
 
 /* gallery */
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos > img{
+#photos>img {
     width: 100%;
 
 }
 
 /* contact form */
-.contact-us{
-    
-}
+.contact-us {}
