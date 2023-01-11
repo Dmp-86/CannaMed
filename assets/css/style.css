@@ -65,25 +65,34 @@ h4 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-footer {
-    height: 100px;
+#footer {
+    height: 150px;
     width: 100%;
-}
-
-.socials {
+    background: red;
     text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    position: fixed;
+    /* left: 0;
+    bottom: 0; */
+    /* overflow: hidden; */
 }
 
-.socials>li {
-    display: inline;
+#footer i{
+    /* padding:0;
+    left: 0;
+    bottom: 0; */
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 40px;
+    line-height: 0; 
 }
 
-.socials i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+/* #footer li{
+    /* display: flex;
+    flex-direction: row;
+} */
 
 /* hero image */
 
@@ -97,12 +106,28 @@ footer {
     overflow: hidden;
     position: relative;
 }
+#hero-cover {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 
+    width: 300px;
+    /* height: 200px; */
+
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(111, 241, 107, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/cannamed1.png') no-repeat center center;
-
 
 /* animates zoom effect on loading page */
 animation-name: hero-zoom;
@@ -135,11 +160,9 @@ animation-fill-mode:forwards;
 
 #main-info h2 {
     color: forestgreen;
-
 }
 
 /* patient journey styling */
-
 .steps {
     width: calc(100%/3);
     background-color: rgba(255, 255, 255, 0.6);
@@ -207,26 +230,6 @@ animation-fill-mode:forwards;
     display: inline;
 }
 
-
-#hero-cover {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    /* height: 200px; */
-
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(111, 241, 107, 0.8);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-}
-
 /* gallery */
 #photos {
     clear: both;
@@ -237,7 +240,6 @@ animation-fill-mode:forwards;
 
 #photos>img {
     width: 100%;
-
 }
 
 /* contact form */
