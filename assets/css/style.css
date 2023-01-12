@@ -247,5 +247,55 @@ animation-fill-mode:forwards;
 
 /* contact form */
 .contact-us {
+    clear: left;
+    background: url('../images/medicinal-cannabis.webp');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
     
+.contact-form{
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:hsla(0, 0%, 13%, 0.6);
+    max-width:400px;
+    position:absolute;
+    left:10%;
+    padding:30px;
+}
+    
+.contact-form > h2{
+    color:#fafafa;
+    margin-bottom:20px;
+}
+    
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;    
+}
+    
+.text-input:hover{
+    border-color:#fa6ef3;
+}
+    
+.join-button{
+    margin-top:20px;
+    border-radius:2px;
+    padding: 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#0d8502;
+    color:#fafafa;
+    display:block;
+}
+    
+.join-button:hover{
+    background-color:#fafafa;
+    color:#64c251;
+}
 }
