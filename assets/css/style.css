@@ -258,7 +258,7 @@ animation-fill-mode:forwards;
     margin:150px 10% 0 0;
     color:#fff;
     background-color:hsla(0, 0%, 13%, 0.6);
-    max-width:400px;
+    max-width:500px;
     position:absolute;
     left:10%;
     padding:30px;
@@ -280,7 +280,7 @@ animation-fill-mode:forwards;
 }
     
 .text-input:hover{
-    border-color:#fa6ef3;
+    border:2px solid #148370;
 }
     
 .join-button{
@@ -297,5 +297,4 @@ animation-fill-mode:forwards;
 .join-button:hover{
     background-color:#fafafa;
     color:#64c251;
-}
 }
