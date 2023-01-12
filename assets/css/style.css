@@ -73,19 +73,19 @@ footer {
     padding: 2px;
     text-transform: uppercase;
     /* position: fixed; */
-    left: 0;
+    /* left: 0; */
     bottom: 0;
     /* overflow: hidden; */
 }
 
-#footer-text{
+.footer-text{
     padding:0;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: black;
     font-size: 160%;
     margin: 1%;
-    text-align: center;
+    text-align: right;
 }
 
 footer p{
@@ -236,6 +236,12 @@ animation-fill-mode:forwards;
 
 .quotes {
     display: inline;
+    color: #252525;
+}
+
+.quotes p{
+    width: 25%;
+    display: inline-block;
 }
 
 /* gallery */
