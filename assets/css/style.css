@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #272727;
 }
 
 /* headings and logo styling */
@@ -65,28 +65,31 @@ h4 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#footer {
-    height: 150px;
+footer {
+    /* height: 100px; */
     width: 100%;
-    background: red;
-    text-align: center;
+    background-color: #5cbb8b;
+    text-align: left;
     padding: 2px;
     text-transform: uppercase;
-    position: fixed;
-    /* left: 0;
-    bottom: 0; */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
     /* overflow: hidden; */
 }
 
-#footer i{
-    /* padding:0;
-    left: 0;
-    bottom: 0; */
+#footer-text{
+    padding:0;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: black;
-    font-size: 40px;
-    line-height: 0; 
+    font-size: 160%;
+    margin: 1%;
+    text-align: center;
+}
+
+footer p{
+    color: black;
 }
 
 /* #footer li{
@@ -243,4 +246,6 @@ animation-fill-mode:forwards;
 }
 
 /* contact form */
-.contact-us {}
+.contact-us {
+    
+}
