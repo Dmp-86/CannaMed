@@ -162,15 +162,15 @@ animation-fill-mode:forwards;
 }
 
 /* patient journey styling */
-.steps {
+/* .steps {
     width: calc(100%/3);
     background-color: rgba(166, 247, 166, 0.6);
     color: black;
-    /* float: left; */
+    float: left;
     margin: 5px;
-    /* display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto;
     padding: 1em;
 }
 
@@ -181,7 +181,7 @@ animation-fill-mode:forwards;
 
 .steps li {
     list-style-type: none;
-}
+} */
 
 #patient-journey {
     width: 100%;
@@ -190,18 +190,26 @@ animation-fill-mode:forwards;
 }
 
 
-#patient-journey h2, h4{
+/* #patient-journey h2, h4{
     color: black;
-}
-
-/* #starting{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    margin:0 1px;
-    display: inline-block;
 } */
 
+.start{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    color: black;
+    font-weight: 400;
+    
+}
+blockquote{
+    margin: 1em 3em;
+    padding: .5em;
+    background-color: #f6ebc1; 
+}
+    blockquote p {
+        margin: 0; 
+}
 /* #preparing{
     padding-top: 30px;
     width: 33%;
