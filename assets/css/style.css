@@ -222,7 +222,7 @@ animation-fill-mode:forwards;
 
 #testimonials {
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: 1px solid blue;
     background-color: yellow;
     color: #252525;
@@ -231,15 +231,25 @@ animation-fill-mode:forwards;
 }
 
 .quotes {
-    display: inline;
+    display: inline-block;
     color: #252525;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    padding: 2px;
 }
 
-.quotes p{
+/* .quotes p{
     width: 25%;
     display: inline-block;
-}
+} */
 
+q{
+    color: rgb(197, 13, 13);
+    font-style: italic;
+    display: inline-block;
+    
+}
 /* gallery */
 #photos {
     clear: both;
