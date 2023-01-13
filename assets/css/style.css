@@ -114,17 +114,13 @@ footer p{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     /* height: 200px; */
-
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(111, 241, 107, 0.8);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
 #hero-image {
