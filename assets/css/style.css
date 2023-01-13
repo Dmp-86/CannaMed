@@ -186,6 +186,7 @@ animation-fill-mode:forwards;
 #patient-journey {
     width: 100%;
     padding: 0;
+    background-color: red;
     /* background: white url('../images/cbdbanner-1.webp') no-repeat center center; */
 }
 
