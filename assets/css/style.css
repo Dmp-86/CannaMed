@@ -164,8 +164,8 @@ animation-fill-mode:forwards;
 /* patient journey styling */
 .steps {
     width: calc(100%/3);
-    background-color: rgba(73, 75, 73, 0.6);
-    color: white;
+    background-color: rgba(166, 247, 166, 0.6);
+    color: black;
     /* float: left; */
     margin: 5px;
     /* display: block;
@@ -186,12 +186,12 @@ animation-fill-mode:forwards;
 #patient-journey {
     width: 100%;
     padding: 0;
-    background: white url('../images/cbdbanner-1.webp') no-repeat center center;
+    /* background: white url('../images/cbdbanner-1.webp') no-repeat center center; */
 }
 
 
 #patient-journey h2, h4{
-    color: white;
+    color: black;
 }
 
 /* #starting{
@@ -226,7 +226,7 @@ animation-fill-mode:forwards;
     border: 1px solid blue;
     background-color: yellow;
     color: #252525;
-    margin: 0;
+    margin: 2px;
     padding: 1px;
 }
 
