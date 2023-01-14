@@ -203,11 +203,19 @@ animation-fill-mode:forwards;
     font-weight: 400;
     
 }
+
 blockquote{
-    margin: 5px 10px;
-    padding: 2px;
+    /* margin: 5px 10px; */
+    /* padding: 2px; */
     background-color: #bdf58f; 
     text-align: center;
+    width: 20%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
     /* blockquote p {
         margin: 0; 
@@ -325,3 +333,37 @@ q{
     background-color:#fafafa;
     color:#64c251;
 }
+
+/* tutorial vid on padding block */
+
+#main-info, #patient-journey, #conditions, #testimonials{
+    padding-block: min(5vh, 10rem);
+}
+
+/* media queries */
+/* for larger to medium screen sizes from 1200px wide and down */
+/* @media screen and (max-width:1200px){
+    #main-info{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    #patient-journey{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto; 
+    }
+
+    #conditions{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #testimonials{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+} */
