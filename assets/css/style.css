@@ -16,8 +16,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3,{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -147,7 +146,7 @@ animation-fill-mode:forwards;
 
 /* main info styling */
 #main-info {
-    background-color: blanchedalmond;
+    background-color: #e4f1cc;
 }
 
 .center {
@@ -186,7 +185,7 @@ animation-fill-mode:forwards;
 #patient-journey {
     width: 100%;
     padding: 0;
-    background-color: red;
+    background-color: #e4f1cc;
     /* background: white url('../images/cbdbanner-1.webp') no-repeat center center; */
 }
 
@@ -334,10 +333,30 @@ q{
     color:#64c251;
 }
 
+hr {
+    border-top: 1px solid #2c2c2c;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#conditions li{
+    width: 50%;
+    text-align: center;
+    border: 2px solid rgb(1, 87, 61);
+    background-color: rgb(221, 165, 243);
+    color: #020202;
+    margin: 2px;
+    padding: 1px;
+}
 /* tutorial vid on padding block */
 
 #main-info, #patient-journey, #conditions, #testimonials{
     padding-block: min(5vh, 10rem);
+}
+
+#patient-journey img{
+    width: 25%;
+    height: 100%;
 }
 
 /* media queries */
