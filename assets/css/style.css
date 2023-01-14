@@ -76,6 +76,7 @@ footer {
     bottom: 0;
     /* overflow: hidden; */
     text-align: center;
+    /* border: 5px forestgreen; */
 }
 
 .footer-text{
@@ -85,16 +86,14 @@ footer {
     color: black;
     font-size: 180%;
     margin: 2%;
-    border: 14px;
-    
-    /* test */
+    border: 1mm ridge rgba(79, 196, 25, 0.7);
 }
 
 footer p{
     color: black;
 }
 
-footer a{
+footer i{
     padding: 10px;
     border: 5px;
 }
@@ -251,33 +250,42 @@ article{
 
 #testimonials {
     width: 100%;
-    text-align: center;
-    border: 1px solid blue;
-    background-color: yellow;
-    color: #252525;
+    /* text-align: left; */
+    /* border: 1px solid blue; */
+    background-color: rgb(172, 243, 176);
+    color: #000000;
     margin: 2px;
-    padding: 1px;
+    padding: 5px;
+    display: inline-block;
 }
 
 .quotes {
-    display: inline-block;
-    color: #252525;
-    height: 150px;
-    width: 300px;
-    text-align: center;
+    /* display: inline-block; */
+    color: #000000;
+    height: inherit;
+    width: 20%;
+    text-align: left;
     padding: 2px;
 }
-
-/* .quotes p{
-    width: 25%;
+/* #quote{
     display: inline-block;
 } */
 
+.quotes p{
+    width: 20%;
+    display: inline-block;
+    border: 2px solid #148370 ;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 400;
+
+}
+
 q{
-    color: rgb(197, 13, 13);
+    color: rgb(5, 56, 63);
     font-style: italic;
     display: inline-block;
-    
+    font-weight: 400;
 }
 /* gallery */
 #photos {
@@ -367,7 +375,7 @@ hr {
 /* tutorial vid on padding block */
 
 #main-info, #patient-journey, #conditions, #testimonials{
-    padding-block: min(5vh, 10rem);
+    padding-block: min(2.5vh, 10rem);
 }
 
 #patient-journey img{
