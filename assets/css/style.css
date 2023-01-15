@@ -164,6 +164,7 @@ animation-fill-mode:forwards;
 
 #main-info h2 {
     color: forestgreen;
+    text-transform: uppercase;
 }
 
 /* patient journey styling */
@@ -190,15 +191,16 @@ animation-fill-mode:forwards;
 
 #patient-journey {
     width: 100%;
-    padding: 0;
+    padding: 5px;
     background-color: #e4f1cc;
     /* background: white url('../images/cbdbanner-1.webp') no-repeat center center; */
 }
 
 
-/* #patient-journey h2, h4{
-    color: black;
-} */
+#patient-journey, #conditions, #testimonials h2{
+    color: forestgreen;
+    /* text-transform:uppercase; */
+}
 
 .start{
     display: flex;
@@ -206,7 +208,6 @@ animation-fill-mode:forwards;
     flex-direction: row;
     color: black;
     font-weight: 400;
-    
 }
 
 blockquote{
@@ -223,7 +224,7 @@ blockquote{
     padding: 20px;
 }
 
-article{
+.right{
     display: block;
     text-align: right;
 }
@@ -278,7 +279,6 @@ article{
     text-align: center;
     padding: 10px 20px;
     font-weight: 400;
-
 }
 
 q{
@@ -374,18 +374,18 @@ hr {
 }
 /* tutorial vid on padding block */
 
-#main-info, #patient-journey, #conditions, #testimonials{
+/* #main-info, #patient-journey, #conditions, #testimonials{
     padding-block: min(2.5vh, 10rem);
 }
 
 #patient-journey img{
     width: 25%;
     height: 100%;
-}
+} */
 
 /* media queries */
 /* for larger to medium screen sizes from 1200px wide and down */
-/* @media screen and (max-width:1200px){
+@media screen and (max-width:1200px){
     #main-info{
         width: 65%;
         height: 1200px;
@@ -393,37 +393,90 @@ hr {
     }
     
     #patient-journey{
-        width: 65%;
+        width: inherit;
         height: 1200px;
-        margin: 0 auto; 
+        margin: 0 auto;
+        text-align: left; 
     }
 
     #conditions{
-        width: 65%;
+        width: inherit;
         height: 1200px;
         margin: 0 auto;
     }
 
     #testimonials{
-        width: 65%;
+        width: inherit;
         height: 1200px;
         margin: 0 auto;
     }
+}
+
+/* for  medium screens from 950px wide and down */
+@media screen and (max-width:950px){
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #hero-cover{
+        left: 0;
+    }
+
+    #main-info{
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #patient-journey{
+        width: inherit;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    /* #patient-journey img{
+        width: inherit;
+    } */
+
+    #conditions{
+        width: inherit;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #testimonials{
+        width: inherit;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #patient-journey blockquote{
+        text-align: left;
+    }
+}
+
+/* image test
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 } */
 
 /* spans */
 
-.left{
-    left: 0;
-    width: 50%;
-    position: relative;
-    display: inline;
-}
+/* .left{
+    /* float: left; */
+    /* width: 50%; */
+    /* position: relative;
+    display: inline-block; */
+/* } */ 
 
-.right{
-
-    right: 0;
+/* .right{
+    float: right;
     width: 50%;
-    position: relative;
-    display: inline;
-}
+    /* position: relative;
+    display: table-row; */
+} 
