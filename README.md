@@ -1,54 +1,58 @@
 CannaMed
 
 CannaMed is a site that provides information and guidance on medical cannabis in the UK. 
-The site will be targeted toward potential patientsand anyone wishing to further their knowledge on the subject. CannaMed will be useful for anyone who wants to look at Cannabis as an alternative treatment method for long-term conditions and anyone considering applying for a private prescription in the UK.
+The site will be targeted toward potential patients and anyone wishing to further their knowledge on the subject. CannaMed will be useful for anyone who wants to look at Cannabis as an alternative treatment method for long-term conditions and anyone considering applying for a private prescription in the UK.
 *Finished here*
 
-(image of rsponsive on all devices)
+(snips of responsive design results on all screen sizes)
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 Existing Features
-Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+Navigation Bar
+Featured on all *** pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and be consistent in design aesthetics.
+This section will enable the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 (image)
 
 The landing page image
-
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+The landing page includes an image to display the main site content and some cover text to briefly describe the subject matter found on the site.
 This section introduces the user to Love Running with an eye catching animation to grab their attention
+(image of hero & cover text)
+
+Plant History Section
+This section introduces the user to a brief history of the plant.
+The section includes an image relating to the content, as a means to break the blocks of information into more digestable pieces. 
 (image)
 
-Club Ethos Section
-
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+Patient journey section
+This section has been broken up into three sub-setions
+-start section describes the legislative status of cannabis in the UK for those seeking a prescription. 
+-prepare section describes the documentation required for the initial consultation. Also included is a blockquote, detailing the important info needed about SCR.
+-consultation section details how the first assessment is structured. Also includes BQ for the main points covered in the first assessment.
 (image)
 
-Meetup Times section
+Treatable conditions section
+Broken into two divs to separate content, the treatable conditions info is organized into an unordered list. This provides users with a quick reference guide to conditions that are eligible for treatment with cannabis products in the UK
+The aside article is....
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-(image)
+Testimonials section
+A section broken into 4 quotes. This provides the user with real-life patient reviews for a range of different conditions and symptoms. 
+
 
 The Footer
-
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes links to the relevant social media sites for CannaMed. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media
 (image)
 
 Gallery
-
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+The gallery will provide the user with supporting images to see cannabis in a range of forms.
+This section is valuable to the user as they will be able to easily identify the types of products available for patients, and modes of administration.
 (image)
 
-The Sign Up Page
-
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+The Contact Page
+This page will allow the user to contact the group directly for various reasons. The user can specify if they if they are in receipt of MCP, if they believe they are eligible or if they would like to discuss something else. The user will be asked to submit their full name and email address.
 (image)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
