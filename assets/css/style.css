@@ -224,10 +224,10 @@ blockquote{
     padding: 20px;
 }
 
-.right{
+/* .right{
     display: block;
     text-align: right;
-}
+} */
     /* blockquote p {
         margin: 0; 
 } */
@@ -361,16 +361,20 @@ hr {
 
 #conditions{
     border: 2px solid rgb(1, 87, 61);
-    width: 50vw;
+    width: 100vw;
+    color: inherit;
 }
 
 #conditions li{
-    width: 40%;
+    width: 50%;
     text-align: center;
+    /* position:inherit; */
     background-color: rgb(221, 165, 243);
     color: #020202;
-    margin: 2px;
+    margin: 0 auto;
     padding: 1px;
+    float: inline-end;
+    list-style: none;
 }
 /* tutorial vid on padding block */
 
@@ -433,7 +437,7 @@ hr {
     }
 
     #patient-journey{
-        width: inherit;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -443,20 +447,18 @@ hr {
     } */
 
     #conditions{
-        width: inherit;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
     #testimonials{
-        width: inherit;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #patient-journey blockquote{
-        text-align: left;
-    }
+    
 }
 
 /* image test
