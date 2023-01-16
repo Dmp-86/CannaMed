@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -121,8 +121,7 @@ footer i{
     letter-spacing: 4px;
     width: 300px;
     /* height: 200px; */
-    padding-top: 40px;
-    padding-left: 10px;
+    padding:40px 10px;
     background-color: rgba(111, 241, 107, 0.8);
     bottom: 30px;
     right: 150px;
@@ -266,7 +265,7 @@ blockquote{
     height: inherit;
     width: 20%;
     text-align: left;
-    padding: 2px;
+    padding: 10px;
 }
 /* #quote{
     display: inline-block;
@@ -359,22 +358,27 @@ hr {
     margin: 5px 0;
 }
 
-#conditions{
-    border: 2px solid rgb(1, 87, 61);
+#conditions-faq{
+    border: 2px solid rgba(80, 236, 190, 0.6);
+    background-color: rgba(145, 212, 195, 0.6);
     width: 100vw;
     color: inherit;
 }
 
-#conditions li{
+#conditions-faq li{
     width: 50%;
     text-align: center;
     /* position:inherit; */
-    background-color: rgb(221, 165, 243);
+    background-color: rgba(145, 212, 195, 0.6);
     color: #020202;
     margin: 0 auto;
     padding: 1px;
     float: inline-end;
     list-style: none;
+}
+
+#conditions-faq ul{
+    border: 2px solid rgba(80, 236, 190, 0.6);
 }
 /* tutorial vid on padding block */
 
@@ -390,6 +394,32 @@ hr {
 /* media queries */
 /* for larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width:1200px){
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #hero-image{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #hero-outer{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #hero-cover {
+        left: 0;
+    }
+    
+    
     #main-info{
         width: 65%;
         height: 1200px;
@@ -405,14 +435,16 @@ hr {
 
     #conditions{
         width: inherit;
-        height: 1200px;
+        /* height: 1200px; */
         margin: 0 auto;
+        text-align: left; 
     }
 
     #testimonials{
         width: inherit;
-        height: 1200px;
+        /* height: 1200px; */
         margin: 0 auto;
+        text-align: left; 
     }
 }
 
@@ -448,13 +480,13 @@ hr {
 
     #conditions{
         width: 90%;
-        height: 1200px;
+        /* height: 1200px; */
         margin: 0 auto;
     }
 
     #testimonials{
         width: 90%;
-        height: 1200px;
+        /* height: 1200px; */
         margin: 0 auto;
     }
 
