@@ -1,72 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #272727;
 }
-
 /* headings and logo styling */
-
 h1,
 h2,
-h3,{
+h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: forestgreen;
 }
-
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 20px;
 }
-
 #logo:hover {
     color: forestgreen;
 }
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
-
 #menu,
 #logo {
     line-height: 75px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 2px solid forestgreen;
     color: forestgreen;
     font-size: 110%;
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
 footer {
     /* height: 100px; */
-    width: 100%;
     background-color: #5cbb8b;
     /* text-align: left; */
     padding: 2px;
@@ -78,9 +69,7 @@ footer {
     text-align: center;
     /* border: 5px forestgreen; */
 }
-
-.footer-text{
-    padding:4px;
+.footer-text {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: black;
@@ -88,12 +77,14 @@ footer {
     margin: 2%;
     border: 1mm ridge rgba(79, 196, 25, 0.7);
 }
-
-footer p{
+.footer-text a,
+.footer-text a i {
+    text-decoration: none;
+}
+footer p {
     color: black;
 }
-
-footer i{
+footer i {
     padding: 10px;
     border: 5px;
 }
@@ -101,14 +92,11 @@ footer i{
     /* display: flex;
     flex-direction: row;
 } */
-
 /* hero image */
-
 #hero-cover,
 #hero-cover h2 {
     color: #fff;
 }
-
 #hero-outer {
     width: 100%;
     overflow: hidden;
@@ -119,53 +107,45 @@ footer i{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
-    /* height: 200px; */
-    padding:40px 10px;
+    padding: 40px 10px;
     background-color: rgba(111, 241, 107, 0.8);
     bottom: 30px;
-    right: 150px;
     position: absolute;
+    margin: 0 2em;
+    max-width: 75%;
 }
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/cannamed1.png') no-repeat center center;
-
-/* animates zoom effect on loading page */
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode:forwards;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.1);
     }
 }
-
 /* main info styling */
 #main-info {
     background-color: #e4f1cc;
+    padding: 1em;
 }
-
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    /* display: block; */
+    width: 100%;
+    margin: 1em auto;
 }
-
 #main-info h2 {
     color: forestgreen;
     text-transform: uppercase;
 }
-
 /* patient journey styling */
 /* .steps {
     width: calc(100%/3);
@@ -178,56 +158,61 @@ animation-fill-mode:forwards;
     margin-right: auto;
     padding: 1em;
 }
-
 #patient-steps {
     display: flex;
     flex-direction: row;
 }
-
 .steps li {
     list-style-type: none;
 } */
-
 #patient-journey {
-    width: 100%;
-    padding: 5px;
+    /* width: 100%; */
+    padding: 1em;
     background-color: #e4f1cc;
     /* background: white url('../images/cbdbanner-1.webp') no-repeat center center; */
 }
-
-
-#patient-journey, #conditions, #testimonials h2{
+#patient-journey,
+#conditions,
+#testimonials h2 {
     color: forestgreen;
     /* text-transform:uppercase; */
 }
-
-.start{
+.start {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     color: black;
     font-weight: 400;
 }
-
-blockquote{
+.start p {
+    padding: 1em 0;
+}
+.start img {
+    width: 100%;
+    padding: 1em 0;
+}
+.step-2-img {
+    order: 2;
+}
+blockquote {
     /* margin: 5px 10px; */
     /* padding: 2px; */
-    background-color: #bdf58f; 
+    background-color: #bdf58f;
     text-align: center;
     /* width: 20%;
     height: 60%; */
-    display: block;
-    margin: 0 auto;
-    margin-top:20px;
-    margin-bottom: 20px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
     padding: 20px;
+    width: calc(100% - 2em);
 }
-
 /* .right{
     display: block;
     text-align: right;
 } */
-    /* blockquote p {
+/* blockquote p {
         margin: 0; 
 } */
 /* #preparing{
@@ -236,7 +221,6 @@ blockquote{
     margin:0 1px;
     display: inline-block;
 } */
-
 /* #consult{
     padding-top: 30px;
     width: 33%;
@@ -244,12 +228,9 @@ blockquote{
     margin:0 auto;
     display: inline-block;
 } */
-
-
 /* testimonials */
-
 #testimonials {
-    width: 100%;
+    /* width: 100%; */
     /* text-align: left; */
     /* border: 1px solid blue; */
     background-color: rgb(172, 243, 176);
@@ -258,29 +239,27 @@ blockquote{
     padding: 5px;
     display: inline-block;
 }
-
+.quote {
+    display: flex;
+    flex-direction: column;
+}
 .quotes {
     /* display: inline-block; */
     color: #000000;
-    height: inherit;
-    width: 20%;
+    /* height: inherit; */
+    /* width: 20%; */
     text-align: left;
     padding: 10px;
 }
-/* #quote{
-    display: inline-block;
-} */
-
-.quotes p{
+/* .quotes p {
     width: 20%;
     display: inline-block;
-    border: 2px solid #148370 ;
+    border: 2px solid #148370;
     text-align: center;
     padding: 10px 20px;
     font-weight: 400;
-}
-
-q{
+} */
+q {
     color: rgb(5, 56, 63);
     font-style: italic;
     display: inline-block;
@@ -293,11 +272,9 @@ q{
     column-count: 4;
     column-gap: 0;
 }
-
 #photos>img {
     width: 100%;
 }
-
 /* contact form */
 .contact-us {
     clear: left;
@@ -306,66 +283,60 @@ q{
     background-position: center;
     height: 900px;
 }
-    
-.contact-form{
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:hsla(0, 0%, 13%, 0.6);
-    max-width:500px;
-    position:absolute;
-    left:10%;
-    padding:30px;
+.contact-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: hsla(0, 0%, 13%, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
-    
-.contact-form > h2{
-    color:#fafafa;
-    margin-bottom:20px;
+.contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
-    
-.text-input{
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border:1px solid #fafafa;
-    border-radius:2px;    
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
-    
-.text-input:hover{
-    border:2px solid #148370;
+.text-input:hover {
+    border: 2px solid #148370;
 }
-    
-.join-button{
-    margin-top:20px;
-    border-radius:2px;
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
     padding: 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#0d8502;
-    color:#fafafa;
-    display:block;
+    text-align: center;
+    font-size: 100%;
+    background-color: #0d8502;
+    color: #fafafa;
+    /* display: block; */
 }
-    
-.join-button:hover{
-    background-color:#fafafa;
-    color:#64c251;
+.join-button:hover {
+    background-color: #fafafa;
+    color: #64c251;
 }
-
 hr {
     border-top: 1px solid #2c2c2c;
     width: 100%;
     margin: 5px 0;
 }
-
-#conditions-faq{
+#conditions {
+    padding: 1em;
     border: 2px solid rgba(80, 236, 190, 0.6);
     background-color: rgba(145, 212, 195, 0.6);
-    width: 100vw;
     color: inherit;
 }
-
-#conditions-faq li{
+#conditions ul {
+    border: 2px solid rgba(80, 236, 190, 0.6);
+}
+#conditions li {
     width: 50%;
     text-align: center;
     /* position:inherit; */
@@ -376,24 +347,23 @@ hr {
     float: inline-end;
     list-style: none;
 }
-
-#conditions-faq ul{
-    border: 2px solid rgba(80, 236, 190, 0.6);
+.faq p {
+    margin: 1em 0;
+}
+.faq p strong {
+    line-height: 2;
 }
 /* tutorial vid on padding block */
-
 /* #main-info, #patient-journey, #conditions, #testimonials{
     padding-block: min(2.5vh, 10rem);
 }
-
 #patient-journey img{
     width: 25%;
     height: 100%;
 } */
-
 /* media queries */
 /* for larger to medium screen sizes from 1200px wide and down */
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
     #menu {
         clear: left;
         float: left;
@@ -401,20 +371,16 @@ hr {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
     #hero-image{
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
-
     #hero-outer{
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
-
     #hero-cover {
         left: 0;
     }
@@ -422,34 +388,27 @@ hr {
     
     #main-info{
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
     
     #patient-journey{
         width: inherit;
-        height: 1200px;
         margin: 0 auto;
         text-align: left; 
     }
-
     #conditions{
         width: inherit;
-        /* height: 1200px; */
         margin: 0 auto;
         text-align: left; 
     }
-
     #testimonials{
         width: inherit;
-        /* height: 1200px; */
         margin: 0 auto;
         text-align: left; 
     }
-}
-
+} */
 /* for  medium screens from 950px wide and down */
-@media screen and (max-width:950px){
+/* @media screen and (max-width:950px){
     #menu{
         clear: left;
         float: left;
@@ -457,60 +416,73 @@ hr {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
     #hero-cover{
         left: 0;
     }
-
     #main-info{
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
-
     #patient-journey{
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
-
-    /* #patient-journey img{
-        width: inherit;
-    } */
-
     #conditions{
         width: 90%;
-        /* height: 1200px; */
         margin: 0 auto;
     }
-
     #testimonials{
         width: 90%;
-        /* height: 1200px; */
         margin: 0 auto;
     }
-
     
-}
-
+} */
 /* image test
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 } */
-
 /* spans */
-
 /* .left{
-    /* float: left; */
-    /* width: 50%; */
-    /* position: relative;
-    display: inline-block; */
-/* } */ 
-
+    float: left;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+} */
 /* .right{
     float: right;
     width: 50%;
-    /* position: relative;
-    display: table-row; */
-} 
+    position: relative;
+    display: table-row;
+} */
+@media (min-width: 750px) {
+    #hero-cover {
+        margin: 0 5em;
+        max-width: 45%;
+    }
+    .center {
+        max-width: 75%;
+        margin: 1em 6em;
+    }
+    .start img {
+        width: 65%;
+    }
+}
+@media (min-width: 950px) {
+    .start {
+        flex-direction: row;
+    }
+    .start p,
+    .start blockquote {
+        margin: 0 1em;
+    }
+    .step-2-img {
+        order: 1;
+    }
+    .step-2-p {
+        order: 2;
+    }
+    .step-2-bq {
+        order: 3;
+    }
+}
