@@ -107,7 +107,8 @@ footer i {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/cannamed1.png') no-repeat center center;
+    background: url('../images/weeeeeed.webp') no-repeat center center;
+    background-size: cover;
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -297,6 +298,12 @@ hr {
         column-count: 1;
         column-gap: 0;
 }
+
+/* testing hamburger */
+@media (min-width: 300px){
+    
+}
+/* end of hamburger */
 
 @media (min-width: 750px) {
     #hero-cover {
