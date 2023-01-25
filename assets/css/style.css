@@ -58,6 +58,8 @@ h3 {
 }
 footer {
     background-color: #5cbb8b;
+    /* background: url('../images/weeeeeed.webp') no-repeat center center;
+    background-size: cover; */
     padding: 2px;
     bottom: 0;
     text-align: center;
@@ -85,7 +87,7 @@ footer i {
 /* hero image */
 #hero-cover,
 #hero-cover h2 {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 #hero-outer {
     width: 100%;
@@ -98,11 +100,15 @@ footer i {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 40px 10px;
-    background-color: rgba(111, 241, 107, 0.8);
+    background-color: rgba(232, 168, 238, 0.8);
     bottom: 30px;
     position: absolute;
     margin: 0 2em;
     max-width: 75%;
+}
+
+#hero-cover h3{
+    color: #0d4e35;
 }
 #hero-image {
     height: 600px;
@@ -173,10 +179,10 @@ blockquote {
 
 /* testimonials */
 #testimonials {
-    background-color: rgb(172, 243, 176);
+    background-color: #e4f1cc;
     color: #000000;
-    margin: 2px;
-    padding: 5px;
+    /* margin: 2px;
+    padding: 5px; */
     display: inline-block;
 }
 .quote {
@@ -187,10 +193,12 @@ blockquote {
     color: #000000;
     text-align: left;
     padding: 10px;
+    background-color: #e4f1cc;
+    border: 0.5px solid #63d18d;
 }
 
 q {
-    color: rgb(5, 56, 63);
+    /* color: rgb(5, 56, 63); */
     font-style: italic;
     display: inline-block;
     font-weight: 400;
@@ -222,7 +230,7 @@ q {
     left: 10%;
     padding: 30px;
 }
-.contact-form>h2 {
+.contact-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -259,21 +267,21 @@ hr {
 }
 #conditions {
     padding: 1em;
-    border: 2px solid rgba(80, 236, 190, 0.6);
-    background-color: rgba(145, 212, 195, 0.6);
+    /* border: 2px solid rgba(80, 236, 190, 0.6); */
+    background-color: #e4f1cc;
     color: inherit;
 }
 #conditions ul {
-    border: 2px solid rgba(80, 236, 190, 0.6);
+    border: 1px solid rgba(80, 236, 190, 0.6);
     display: inline-block;
-    *display: inline;
+    /* *display: inline; */
     zoom: 0;
     text-align: center;
     padding: 1em;
 }
 #conditions li {
     text-align: center;
-    background-color: rgba(145, 212, 195, 0.6);
+    background-color: #e4f1cc;
     color: #020202;
     padding: 2px;
     list-style: none;
