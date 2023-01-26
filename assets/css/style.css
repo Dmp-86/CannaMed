@@ -10,7 +10,16 @@ body {
     color: #272727;
 }
 /* headings and logo styling */
-h1,
+
+h1{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: rgb(7, 7, 7);
+    background: #63e069;
+
+}
+
 h2,
 h3 {
     font-family: Oswald, sans-serif;
@@ -18,13 +27,18 @@ h3 {
     letter-spacing: 4px;
     color: forestgreen;
 }
+
+/* #header{
+    background-color: #9cf7a1;
+} */
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 20px;
 }
 #logo:hover {
-    color: forestgreen;
+    color: rgb(19, 112, 19);
+    background: #000000;
 }
 #menu {
     font-size: 110%;
@@ -33,7 +47,7 @@ h3 {
     float: left;
     margin-left: 30px;
     margin-bottom: 20px;
-    line-height: 25px;
+    line-height: 75px;
 }
 #menu,
 #logo {
@@ -43,6 +57,7 @@ h3 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    /* background: #63e069 */
 }
 #menu a {
     text-decoration: none;
@@ -57,7 +72,7 @@ h3 {
     border-bottom: 1px solid #3a3a3a;
 }
 footer {
-    background-color: #5cbb8b;
+    background-color: #70b980;
     /* background: url('../images/weeeeeed.webp') no-repeat center center;
     background-size: cover; */
     padding: 2px;
@@ -100,7 +115,7 @@ footer i {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 40px 10px;
-    background-color: rgba(232, 168, 238, 0.8);
+    background-color: rgba(66, 148, 100, 0.8);
     bottom: 30px;
     position: absolute;
     margin: 0 2em;
@@ -108,7 +123,7 @@ footer i {
 }
 
 #hero-cover h3{
-    color: #0d4e35;
+    color: #000000;
 }
 #hero-image {
     height: 600px;
@@ -184,6 +199,7 @@ blockquote {
     /* margin: 2px;
     padding: 5px; */
     display: inline-block;
+    text-align: center;
 }
 .quote {
     display: flex;
@@ -270,16 +286,21 @@ hr {
     /* border: 2px solid rgba(80, 236, 190, 0.6); */
     background-color: #e4f1cc;
     color: inherit;
+    text-align: center;
+    
 }
 #conditions ul {
-    border: 1px solid rgba(80, 236, 190, 0.6);
+    /* border: 1px solid rgba(80, 236, 190, 0.6); */
     display: inline-block;
     /* *display: inline; */
-    zoom: 0;
-    text-align: center;
-    padding: 1em;
+    /* zoom: 0; */
+    /* text-align: center;
+    /* padding: 1em; */
+    margin-left: auto;
+    margin-right: auto; */
 }
 #conditions li {
+    border: 1px solid rgba(125, 245, 161, 0.6);
     text-align: center;
     background-color: #e4f1cc;
     color: #020202;
@@ -299,6 +320,27 @@ hr {
     line-height: 2;
 }
 
+#testimonials h2{
+    padding: 0.5em;
+}
+
+@media (min-width: 200px){
+    #menu{
+        line-height: 25px;
+        
+    }
+    #menu ul{
+        display: inline-block;
+        float: left;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #menu a{
+        clear: left;
+        float: left;
+    }
+}
+
 @media (min-width: 450px){
     #photos {
         clear: both;
@@ -306,12 +348,6 @@ hr {
         column-count: 1;
         column-gap: 0;
 }
-
-/* testing hamburger */
-@media (min-width: 300px){
-    
-}
-/* end of hamburger */
 
 @media (min-width: 750px) {
     #hero-cover {
