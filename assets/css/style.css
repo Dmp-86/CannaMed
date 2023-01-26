@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #272727;
 }
+
 /* headings and logo styling */
 
-h1{
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -28,49 +32,81 @@ h3 {
     color: forestgreen;
 }
 
-/* #header{
-    background-color: #9cf7a1;
-} */
+header {
+    margin: 0;
+    background-color: #63e069;
+}
+
+/* responsive menu from: https://www.youtube.com/watch?v=8QKOaTYvYUA */
 #logo {
-    float: left;
     font-size: 280%;
-    margin-left: 20px;
-}
-#logo:hover {
-    color: rgb(19, 112, 19);
-    background: #000000;
-}
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 75px;
-}
-#menu,
-#logo {
-    line-height: 75px;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    /* background: #63e069 */
-}
-#menu a {
     text-decoration: none;
-    color: inherit;
+    margin-left: 0.5em;
+    line-height: 1.5;
+    max-width: fit-content;
+    color: rgb(7, 7, 7);
 }
-#menu a:hover {
-    border-bottom: 2px solid forestgreen;
-    color: forestgreen;
-    font-size: 110%;
+
+#logo a:active, #logo a:visited, #logo a:focus {
+    color: rgb(7, 7, 7);
 }
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: .75em;
+    right: 0;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+    top: 100%;
+    right: 0;
+    display: none;
+    background-color: #63e069;
+}
+
+nav ul {
+    margin: 0;
+    padding: 1rem;
+
+}
+
+nav li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid green;
+}
+
+.nav-toggle:checked~nav {
+    display: block;
+}
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 footer {
     background-color: #70b980;
     /* background: url('../images/weeeeeed.webp') no-repeat center center;
@@ -79,6 +115,7 @@ footer {
     bottom: 0;
     text-align: center;
 }
+
 .footer-text {
     font-family: Oswald, sans-serif;
     letter-spacing: 8px;
@@ -87,13 +124,16 @@ footer {
     /* margin: 2%; */
     /* border: 1mm ridge rgba(79, 196, 25, 0.7); */
 }
+
 .footer-text a,
 .footer-text a i {
     text-decoration: none;
 }
+
 footer p {
     color: black;
 }
+
 footer i {
     padding: 10px;
     border: 5px;
@@ -104,11 +144,13 @@ footer i {
 #hero-cover h2 {
     color: rgb(0, 0, 0);
 }
+
 #hero-outer {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 #hero-cover {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -122,9 +164,10 @@ footer i {
     max-width: 75%;
 }
 
-#hero-cover h3{
+#hero-cover h3 {
     color: #000000;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -135,39 +178,47 @@ footer i {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
+
 /* main info styling */
 #main-info {
     background-color: #e4f1cc;
     padding: 1em;
 }
+
 .center {
     width: 100%;
     margin: 1em auto;
 }
+
 #main-info h2 {
     color: forestgreen;
     text-transform: uppercase;
 }
+
 /* patient journey styling */
 
 #patient-journey {
     padding: 1em;
     background-color: #e4f1cc;
 }
+
 #patient-journey,
 #conditions,
 #testimonials h2 {
     color: forestgreen;
 }
+
 .start {
     display: flex;
     align-items: center;
@@ -175,16 +226,20 @@ footer i {
     color: black;
     font-weight: 400;
 }
+
 .start p {
     padding: 1em 0;
 }
+
 .start img {
     width: 100%;
     padding: 1em 0;
 }
+
 .step-2-img {
     order: 2;
 }
+
 blockquote {
     background-color: #bdf58f;
     text-align: center;
@@ -201,10 +256,12 @@ blockquote {
     display: inline-block;
     text-align: center;
 }
+
 .quote {
     display: flex;
     flex-direction: column;
 }
+
 .quotes {
     color: #000000;
     text-align: left;
@@ -219,6 +276,7 @@ q {
     display: inline-block;
     font-weight: 400;
 }
+
 /* gallery */
 #photos {
     clear: both;
@@ -226,9 +284,11 @@ q {
     column-count: 4;
     column-gap: 0;
 }
-#photos > img {
+
+#photos>img {
     width: 100%;
 }
+
 /* contact form */
 .contact-us {
     clear: left;
@@ -237,6 +297,7 @@ q {
     background-position: center;
     height: 900px;
 }
+
 .contact-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -246,10 +307,12 @@ q {
     left: 10%;
     padding: 30px;
 }
-.contact-form > h2 {
+
+.contact-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -259,9 +322,11 @@ q {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
+
 .text-input:hover {
     border: 2px solid #148370;
 }
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -270,25 +335,29 @@ q {
     font-size: 100%;
     background-color: #0d8502;
     color: #fafafa;
-    
+
 }
+
 .join-button:hover {
     background-color: #fafafa;
     color: #64c251;
 }
+
 hr {
     border-top: 1px solid #2c2c2c;
     width: 100%;
     margin: 5px 0;
 }
+
 #conditions {
     padding: 1em;
     /* border: 2px solid rgba(80, 236, 190, 0.6); */
     background-color: #e4f1cc;
     color: inherit;
     text-align: center;
-    
+
 }
+
 #conditions ul {
     /* border: 1px solid rgba(80, 236, 190, 0.6); */
     display: inline-block;
@@ -297,8 +366,10 @@ hr {
     /* text-align: center;
     /* padding: 1em; */
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto;
+    */
 }
+
 #conditions li {
     border: 1px solid rgba(125, 245, 161, 0.6);
     text-align: center;
@@ -310,54 +381,43 @@ hr {
     padding: 1em;
 }
 
-#conditions h3{
+#conditions h3 {
     padding: 0.5em;
 }
+
 .faq p {
     margin: 1em 0;
 }
+
 .faq p strong {
     line-height: 2;
 }
 
-#testimonials h2{
+#testimonials h2 {
     padding: 0.5em;
 }
 
-@media (min-width: 200px){
-    #menu{
-        line-height: 25px;
-        
-    }
-    #menu ul{
-        display: inline-block;
-        float: left;
-        margin: 0px 0px 0px 0px;
-    }
-
-    #menu a{
-        clear: left;
-        float: left;
-    }
-}
-
-@media (min-width: 450px){
+@media (min-width: 200px) {
     #photos {
         clear: both;
         line-height: 0;
         column-count: 1;
         column-gap: 0;
+    }
 }
+
 
 @media (min-width: 750px) {
     #hero-cover {
         margin: 0 5em;
         max-width: 45%;
     }
+
     .center {
         max-width: 75%;
         margin: 1em 6em;
     }
+
     .start img {
         width: 65%;
     }
@@ -368,24 +428,67 @@ hr {
         column-count: 2;
         column-gap: 0;
     }
+
+    nav {
+        display: block;
+    }
+
+    .nav-toggle,
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu ul {
+        float: right;
+        position: absolute;
+        top: 0.5em;
+        right: 4px;
+
+    }
+
+    #menu li {
+        float: left;
+        list-style-type: none;
+        margin-right: 1rem;
+        padding-right: 1rem;
+    }
+
+    #menu a {
+        color: black;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    #menu a:hover {
+        font-weight: bold;
+        border-bottom: 2px solid green;
+    }
 }
+
 @media (min-width: 950px) {
     .start {
         flex-direction: row;
     }
+
     .start p,
     .start blockquote {
         margin: 0 1em;
     }
+
     .step-2-img {
         order: 1;
     }
+
     .step-2-p {
         order: 2;
     }
+
     .step-2-bq {
         order: 3;
     }
+
     #photos {
         clear: both;
         line-height: 0;
@@ -395,13 +498,10 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    .quote{
+    .quote {
         flex-direction: row;
     }
-    #menu{
-        clear: none;
-        float: none;
-    }
+
     #photos {
         clear: both;
         line-height: 0;

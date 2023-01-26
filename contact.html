@@ -11,28 +11,41 @@
     <title>CannaMed</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">CannaMed</h1>
-        </a>
-        <nav>
-            <ul id="menu">
+    <!-- header and nav -->
+    <header id="header">
+
+        <!-- checkbox toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </label>
+
+        <!-- logo -->
+        <h1 id="logo">
+            <a href="index.html">
+                CannaMed
+            </a>
+        </h1>
+
+        <!-- nav links -->
+        <nav id="menu">
+            <ul>
                 <li>
-                    <a href="contact.html" class="active">Contact Us</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="contact.html" class="active">Contact</a>
                 </li>
             </ul>
         </nav>
-
+        
     </header>
 
     <section class="contact-us">
-        <form method="GET" action="https://formdump.codeinstitute.net/" class="contact-form">
+        <form action="divert.html" class="contact-form">
             <h2>Contact us!<i class="fa-brands fa-pagelines"></i></h2>
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="fname" class="text-input" required><br>
@@ -43,13 +56,13 @@
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email" class="text-input" required><br>
 
-            <input type="radio" id="status" name="status">
+            <input type="radio" id="existing-patient" name="status">
             <label for="status">I am in receipt of a medical cannabis prescription</label><br>
 
-            <input type="radio" id="status" name="status">
+            <input type="radio" id="new-patient" name="status">
             <label for="status">I believe I am eligible and would like to discuss next steps</label><br>
             
-            <input type="radio" id="status" name="status">
+            <input type="radio" id="other" name="status">
             <label for="status">I would like to discuss something else</label><br>
             
             <input class="join-button" type="submit" value="Lets Connect!">

@@ -6,30 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CannaMed online community for medical cannabis patients">
     <meta name="keywords" content="medical cannabis, cannabis community">
+    <meta http-equiv="refresh" content="10; url=index.html">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>CannaMed</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">CannaMed</h1>
-        </a>
-        <nav>
-            <ul id="menu">
+    <!-- header and nav -->
+    <header id="header">
+
+        <!-- checkbox toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </label>
+
+        <!-- logo -->
+        <h1 id="logo">
+            <a href="index.html">
+                CannaMed
+            </a>
+        </h1>
+
+        <!-- nav links -->
+        <nav id="menu">
+            <ul>
                 <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="contact.html" class="active">Contact</a>
                 </li>
             </ul>
         </nav>
-
+        
     </header>
+
+    <main>
+        <section>
+            <p>
+                Thanks for your message!
+            </p>
+            <p>
+                You'll be redirected back to the
+                <a href="index.html">Home Page</a>
+                in 10 seconds.
+            </p>
+        </section>
+    </main>
 
     <footer>
         <ul class="socials">
