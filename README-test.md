@@ -1,111 +1,91 @@
 # CANNAMED
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+CannaMed is a static front-end site that provides information and guidance on medical cannabis in the UK. 
+The site will be targeted toward potential patients and anyone wishing to further their knowledge on the subject.
+CannaMed will be useful for anyone who wants to look at Cannabis as an alternative treatment method for long-term conditions and anyone considering applying for a private prescription in the UK.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+You can view the deployed site here:
+(https://dmp-86.github.io/CannaMed/)
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://dmp-86.github.io/CannaMed
+![Mock-up of responsive design](documentation/air1.png)
 
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
 ## UX
-
-In this section, you will briefly explain your design processes.
 
 ### Colour Scheme
 
 Explain your colours and the colour scheme.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `#000000` used for primary text/main body and header.
+- `#114611` used for secondary and headings.
+- `#a8a7e6` used for highlighting blockquotes.
+- `#a7e4a7` used for background of main information sections. 
+- `#b1fdb1` used for highlighting list items in conditions section. 
+- `#b1fdb1` used for background of main areas. 
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+I used [coolors.co](https://coolors.co/a7e4a7-b1fdb1-63e069-008000-114611-a8a7e6-4a4a4f-3a3a3a) to generate my colour palette.
 
-Example:
+![screenshot](documentation/palette.png)
 
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+- [Oswald](https://fonts.google.com/specimen/Oswald) was used for the primary headers and titles.
 
-Example:
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all other secondary text.
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer and icongraphy within headings. 
 
 ## Features
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Feature #1**
+- **Navigation Bar**
+
+Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical on each page to allow for easy navigation and consistentency in design aesthetics.
+This section will enable the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The navigation bar converts to a hamburger icon with a dropdown menu on screen-sizes of 750px and below. The menu is accessed by pressing the hamburger icon. This allows the content to fit in a structured manner on smaller devices. 
+
+![screenshot](documentation/nav-main.png)
+![screenshot](documentation/nav-hamburger.png)
+![screenshot](documentation/nav-hamburger-mobile.png)
+
+- **The hero image & hero cover**
+
+The hero section includes an image to display the main site content and some cover text to briefly describe the subject matter found on the site. The main hero image uses a high resolution image of a cannabis plant under full spectrum light. The colors of the image serve as a break to the standard green palette used across the site. This is intended to capture attention and provide visual indication of the subject matter. 
+The section uses a zoom feature to highlight the image for users. Included on top of the image, is a cover box with the name of the site and a brief description. 
+
+![screenshot](documentation/hero-img-cover.png)
+
+- **Plant History Section**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/feature03.png)
 
-- **Feature #2**
+- **Patient Journey section**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/feature03.png)
 
-- **Feature #3**
+- **Treatable Conditions section**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Testimonials section**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Footer**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 

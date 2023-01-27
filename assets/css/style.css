@@ -10,7 +10,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    color: #070707;
+    color: #000000;
 }
 
 /* headings and logo styling */
@@ -21,7 +21,6 @@ h1 {
     letter-spacing: 6px;
     color: rgb(7, 7, 7);
     background: #63e069;
-
 }
 
 h2,
@@ -29,7 +28,7 @@ h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(17, 70, 17);
+    color: #114611;
     border-bottom: 2px solid #000;
     padding: 0.5em;
 }
@@ -46,11 +45,11 @@ header {
     margin-left: 0.5em;
     line-height: 1.5;
     max-width: fit-content;
-    color: rgb(7, 7, 7);
+    color: #000000;
 }
 
 #logo a:active, #logo a:visited, #logo a:focus {
-    color: rgb(7, 7, 7);
+    color: #000000;
 }
 
 #nav-toggle {
@@ -65,7 +64,7 @@ header {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    color: black;
+    color: #000000;
 }
 
 nav {
@@ -90,7 +89,7 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -98,7 +97,7 @@ nav a {
 
 nav a:hover {
     font-weight: bold;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #008000;
 }
 
 .nav-toggle:checked~nav {
@@ -116,13 +115,13 @@ footer {
     padding: 2px;
     bottom: 0;
     text-align: center;
-    height: 100px;
+    /* height: 100px; */
 }
 
 .footer-text {
     font-family: Oswald, sans-serif;
     letter-spacing: 8px;
-    color: black;
+    color: #000000;
     font-size: 180%;
     /* margin: 2%; */
     /* border: 1mm ridge rgba(79, 196, 25, 0.7); */
@@ -133,10 +132,10 @@ footer {
     text-decoration: none;
 }
 
-footer p {
-    color: black;
+/* footer p {
+    color: #000000;
     /* text-transform: uppercase; */
-}
+} */
 
 footer i {
     padding: 10px;
@@ -146,7 +145,7 @@ footer i {
 /* hero image */
 #hero-cover,
 #hero-cover h2 {
-    color: rgb(0, 0, 0);
+    color: #000000;
     border: none;
 }
 
@@ -162,7 +161,7 @@ footer i {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 40px 10px;
-    background-color: rgba(99, 224, 105, 0.6);
+    background-color: #63e06999;
     bottom: 30px;
     position: absolute;
     margin: 0 2em;
@@ -213,7 +212,7 @@ footer i {
 }
 
 #main-info h2 {
-    color: rgb(17, 70, 17);
+    color: #114611;
     text-transform: uppercase;
 }
 
@@ -227,14 +226,14 @@ footer i {
 #patient-journey,
 #conditions,
 #testimonials h2 {
-    color: rgb(17, 70, 17);
+    color: #114611;
 }
 
 .start {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: black;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -313,7 +312,7 @@ q {
 .contact-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: hsla(0, 0%, 13%, 0.6);
+    background-color: #21212199;
     max-width: 500px;
     position: absolute;
     left: 10%;
@@ -355,28 +354,15 @@ q {
     color: #64c251;
 }
 
-hr {
-    border-top: 1px solid #2c2c2c;
-    width: 100%;
-    margin:  0;
-}
-
 #conditions {
     padding: 1em;
-    /* border: 2px solid rgba(80, 236, 190, 0.6); */
     background-color: #a7e4a7;
     color: inherit;
     text-align: center;
-
 }
 
 #conditions ul {
-    /* border: 1px solid rgba(80, 236, 190, 0.6); */
     display: inline-block;
-    /* *display: inline; */
-    /* zoom: 0; */
-    /* text-align: center;
-    /* padding: 1em; */
     margin-left: auto;
     margin-right: auto;
     padding: 0.5em;
@@ -385,7 +371,7 @@ hr {
 #conditions li {
     border: 1px solid rgba(125, 245, 161, 0.6);
     text-align: center;
-    background-color: rgb(177, 253, 177);
+    background-color: #b1fdb1;
     color: #020202;
     padding: 2px;
     list-style: none;
@@ -467,7 +453,7 @@ hr {
     }
 
     #menu a {
-        color: black;
+        color: #000000;
         text-decoration: none;
         font-size: 1rem;
         font-weight: 300;
@@ -476,7 +462,7 @@ hr {
 
     #menu a:hover {
         font-weight: bold;
-        border-bottom: 2px solid green;
+        border-bottom: 2px solid #008000;
     }
 }
 
