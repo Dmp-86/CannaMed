@@ -121,9 +121,10 @@ The gallery is fully responsive, and will show various column counts based on sc
 
     - This page will allow the user to contact the group directly for various reasons. 
 The user can specify if they are in receipt of a Medical Cannabis Prescription, if they believe they are eligible or if they would like to discuss something else. 
-The user will be asked to submit their full name and email address. The page diverts the user once they submit the request, in an effort to reduce the need for users to navigate using the browsers 'back' button.  
+The user will be asked to submit their full name and email address. The form diverts the user to an alternative page once they submit the request. This negates the use of browsers 'back' button, as it automatically redirects after 10 seconds. 
 
 ![screenshot](documentation/contact.png)
+![screenshot](documentation/divertpage.png)
 
 
 ### Future Features

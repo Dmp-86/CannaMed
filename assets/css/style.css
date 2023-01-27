@@ -14,7 +14,6 @@ body {
 }
 
 /* headings and logo styling */
-
 h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -48,7 +47,9 @@ header {
     color: #000000;
 }
 
-#logo a:active, #logo a:visited, #logo a:focus {
+#logo a:active,
+#logo a:visited,
+#logo a:focus {
     color: #000000;
 }
 
@@ -79,7 +80,6 @@ nav {
 nav ul {
     margin: 0;
     padding: 1rem;
-
 }
 
 nav li {
@@ -110,12 +110,9 @@ nav a:hover {
 
 footer {
     background-color: #63e069;
-    /* background: url('../images/weeeeeed.webp') no-repeat center center;
-    background-size: cover; */
     padding: 2px;
     bottom: 0;
     text-align: center;
-    /* height: 100px; */
 }
 
 .footer-text {
@@ -123,8 +120,6 @@ footer {
     letter-spacing: 8px;
     color: #000000;
     font-size: 180%;
-    /* margin: 2%; */
-    /* border: 1mm ridge rgba(79, 196, 25, 0.7); */
 }
 
 .footer-text a,
@@ -132,14 +127,11 @@ footer {
     text-decoration: none;
 }
 
-.footer-text a:active, .footer-text a:visited, .footer-text a:focus {
+.footer-text a:active,
+.footer-text a:visited,
+.footer-text a:focus {
     color: #000000;
 }
-
- /* footer p {
-    color: #000000;
-    text-transform: uppercase;
-} */
 
 footer i {
     padding: 10px;
@@ -151,6 +143,7 @@ footer i {
 #hero-cover h2 {
     color: #000000;
     border: none;
+    background-color: #4c54cca1;
 }
 
 #hero-outer {
@@ -205,11 +198,9 @@ footer i {
     padding: 1em;
 }
 
-#main-info p{
+#main-info p {
     padding: 1em;
 }
-
-
 .center {
     width: 100%;
     margin: 1em auto;
@@ -221,7 +212,6 @@ footer i {
 }
 
 /* patient journey styling */
-
 #patient-journey {
     padding: 1em;
     background-color: #a7e4a7;
@@ -265,8 +255,6 @@ blockquote {
 #testimonials {
     background-color: #94e298;
     color: #000000;
-    /* margin: 2px;
-    padding: 5px; */
     display: inline-block;
     text-align: center;
 }
@@ -286,7 +274,6 @@ blockquote {
 }
 
 q {
-    /* color: rgb(5, 56, 63); */
     font-style: italic;
     display: inline-block;
     font-weight: 400;
@@ -306,8 +293,9 @@ q {
 
 /* contact form */
 .contact-us {
+    background-color: #b4f1bd;
     clear: left;
-    background: url('../images/medicinal-cannabis.webp') no repeat center;
+    background: url('../images/medicinal-cannabis.webp');
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -356,16 +344,16 @@ q {
     background-color: #fafafa;
     color: #64c251;
 }
+
 /* divert page */
 .diversion {
-    /* clear: left; */
     background: url('../images/divert-page.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 
-.diversion p, h2, h3{
+#divert-page h2, h3 {
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
@@ -375,16 +363,14 @@ q {
 }
 
 #divert-page {
-    /* margin: 150px 10% 0 0; */
     color: #fff;
-    /* background-color: #5a5cee99; */
     max-width: 100%;
     position: relative;
-    /* left: 10%; */
-    /* padding: 30px; */
 }
 
-.diversion a:active, .diversion a:visited, .diversion a:focus {
+.diversion a:active,
+.diversion a:visited,
+.diversion a:focus {
     color: #000000;
 }
 
@@ -440,7 +426,6 @@ q {
     }
 }
 
-
 @media (min-width: 750px) {
     #hero-cover {
         margin: 0 5em;
@@ -477,7 +462,6 @@ q {
         position: absolute;
         top: 0.5em;
         right: 4px;
-
     }
 
     #menu li {
