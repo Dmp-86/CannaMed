@@ -15,8 +15,6 @@ You can view the deployed site here:
 
 ### Colour Scheme
 
-Explain your colours and the colour scheme.
-
 - `#000000` used for primary text/main body and header.
 - `#114611` used for secondary and headings.
 - `#a8a7e6` used for highlighting blockquotes.
@@ -46,7 +44,7 @@ I used [coolors.co](https://coolors.co/a7e4a7-b1fdb1-63e069-008000-114611-a8a7e6
 
 - **Navigation Bar**
 
-Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical on each page to allow for easy navigation and consistentency in design aesthetics.
+- Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical on each page to allow for easy navigation and consistentency in design aesthetics.
 This section will enable the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 The navigation bar converts to a hamburger icon with a dropdown menu on screen-sizes of 750px and below. The menu is accessed by pressing the hamburger icon. This allows the content to fit in a structured manner on smaller devices. 
 
@@ -54,53 +52,64 @@ The navigation bar converts to a hamburger icon with a dropdown menu on screen-s
 ![screenshot](documentation/nav-hamburger.png)
 ![screenshot](documentation/nav-hamburger-mobile.png)
 
-- **The hero image & hero cover**
+- **The Hero Image & Hero Cover**
 
-The hero section includes an image to display the main site content and some cover text to briefly describe the subject matter found on the site. The main hero image uses a high resolution image of a cannabis plant under full spectrum light. The colors of the image serve as a break to the standard green palette used across the site. This is intended to capture attention and provide visual indication of the subject matter. 
-The section uses a zoom feature to highlight the image for users. Included on top of the image, is a cover box with the name of the site and a brief description. 
+- The hero section includes an image to display the main site content and some cover text to briefly describe the subject matter found on the site. The main hero image uses a high resolution image of a cannabis plant under full spectrum light. The colors of the image serve as a break to the standard green palette used across the site. This is intended to capture attention and provide visual indication of the subject matter. 
+The section uses a zoom feature to highlight the image for users. Included on top of the image, is a cover box with the name of the site and a brief description of the intended audience. 
 
 ![screenshot](documentation/hero-img-cover.png)
 
 - **Plant History Section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This section introduces the user to a brief history of the cannabis plant. The intention is to provide some background information on historical medicinal use of cannabis in the UK, followed by prohibition and eventually legalization for medical patients. 
+The section includes an image relating to the content, as a means to break the blocks of information into more digestable pieces.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/plant-history.png)
 
 - **Patient Journey section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This section has been broken up into three sub-sections. All three sub-sections are styled with an image to make the text blocks more digestible. 
+The 'where do I start?' section describes the legislative status of cannabis in the UK for those seeking a prescription. It describes the criteria used by consultants to establish eligibility for a prescription. This aims to provide the user with an accurate starting point on their journey to acquire medical cannabis. 
+The 'how do I prepare?' section describes the access to medical records required for the assessment, and documentation required for the initial consultation. Also included is a blockquote in a contrasting color, detailing the important info needed about Summary Care Record.
+The 'initial consultation' section details how the first assessment is structured. It advises users on the type of questions they will be asked at the assessment. The section also includes a blockquote in a contrasting color, for the main points covered in the first assessment.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/pj-start.png)
+![screenshot](documentation/pj-prepare.png)
+![screenshot](documentation/pj-consult.png)
 
 - **Treatable Conditions section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This section is broken into two unordered lists to separate content, and improve responsive design on smaller screen sizes. It lists an overview of conditions that can be treated with cannabis, and respective symptoms. 
+This provides users with a quick reference guide to conditions that are eligible for treatment with cannabis products in the UK.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/conditions-v.png)
+![screenshot](documentation/conditions.png)
+
+- **FAQs**
+
+    - This is part of the 'Treatable Conditions' section, and it lists some frequently asked questions that are relevant for new users of the plant. It aims to dispell myths around cannabis use, and provides the user with further background information on the patient journey. 
+
+![screenshot](documentation/faqs.png)
 
 - **Testimonials section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This section is broken into 4 quotes. The intention is to provide the user with real-life patient reviews for a range of different conditions and symptoms.
+    the section is responsive and the structure of the quotes will change based on the users screen-size. 
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/testimonials-fs.png)
+![screenshot](documentation/testimonials-bl.png)
 
 - **Footer**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The footer section includes links to the relevant social media sites for CannaMed. The links will open to a new tab to allow easy navigation for the user. This negates the use of the 'back' button in the browser to allow for a more seamless user experience. 
+The footer is valuable to the user as it encourages them to keep connected via social media. It also encourages the user to becoe part of the social media communities. Included on the footer is the name of the site, a brief description of the purpose of the site and the dev information. 
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/)
 
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
 
 ### Future Features
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+Id like to add some truncated sections to minimize the blocks of text
 
 - Cool new feature #1
     - Any additional notes about this feature.
