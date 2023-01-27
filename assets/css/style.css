@@ -132,6 +132,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-text a:active, .footer-text a:visited, .footer-text a:focus {
+    color: #000000;
+}
+
  /* footer p {
     color: #000000;
     text-transform: uppercase;
@@ -378,6 +382,10 @@ q {
     position: relative;
     /* left: 10%; */
     /* padding: 30px; */
+}
+
+.diversion a:active, .diversion a:visited, .diversion a:focus {
+    color: #000000;
 }
 
 /* conditions */
