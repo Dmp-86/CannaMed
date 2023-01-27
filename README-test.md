@@ -102,52 +102,54 @@ This provides users with a quick reference guide to conditions that are eligible
 - **Footer**
 
     - The footer section includes links to the relevant social media sites for CannaMed. The links will open to a new tab to allow easy navigation for the user. This negates the use of the 'back' button in the browser to allow for a more seamless user experience. 
-The footer is valuable to the user as it encourages them to keep connected via social media. It also encourages the user to becoe part of the social media communities. Included on the footer is the name of the site, a brief description of the purpose of the site and the dev information. 
+The footer is valuable to the user as it encourages them to keep connected via social media. It also encourages the user to becoe part of the social media communities. Included on the footer is the name of the site, a brief description of the purpose of the site and the developer information. 
 
-![screenshot](documentation/)
+![screenshot](documentation/footer.png)
+
+- **Gallery section**
+
+    - The gallery will provide the user with supporting images to see cannabis in a range of forms.
+This section is valuable to the user as they will be able to easily identify the types of products available for patients, and modes of administration. It also includes cannabis bud images, to showcase the diversity in strains. 
+The gallery is fully responsive, and will show various column counts based on screen-size.  
+
+![screenshot](documentation/gallery1.png)
+![screenshot](documentation/gallery2.png)
+![screenshot](documentation/gallery3.png)
+![screenshot](documentation/gallery4.png)
+
+- **Contact Us section**
+
+    - This page will allow the user to contact the group directly for various reasons. 
+The user can specify if they are in receipt of a Medical Cannabis Prescription, if they believe they are eligible or if they would like to discuss something else. 
+The user will be asked to submit their full name and email address. The page diverts the user once they submit the request, in an effort to reduce the need for users to navigate using the browsers 'back' button.  
+
+![screenshot](documentation/contact.png)
 
 
 ### Future Features
 
-Id like to add some truncated sections to minimize the blocks of text
+With additional time to spend on this project, I believe the below features would improve the overall user experience. 
 
-- Cool new feature #1
-    - Any additional notes about this feature.
-- Cool new feature #2
-    - Any additional notes about this feature.
-- Cool new feature #3
-    - Any additional notes about this feature.
+- Truncated text/read more
+    - Reduce blocks of text to improve readability of the page and improve the structure. 
+- Eligibility Checker 
+    - Introduce a survey for users to allow them to check their own eligibility, based on official criteria. 
+- Cost Simulator
+    - Introduce a calculator into the site where users can simulate how much a monthly prescription will cost them, based on their individual needs. 
 
 ## Tools & Technologies Used
 
-In this section, you should explain the various tools and technologies used to develop the project.
 Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) used to help generate the Markdown files.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+
 
 ## Testing
 
@@ -195,9 +197,6 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-### Local VS Deployment
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
 ## Credits
 
@@ -217,15 +216,7 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+
 
 ### Media
 
@@ -242,14 +233,7 @@ by sending yourself the following command: `!freemedia`.
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+
 
 ### Acknowledgements
 

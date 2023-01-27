@@ -303,7 +303,7 @@ q {
 /* contact form */
 .contact-us {
     clear: left;
-    background: url('../images/medicinal-cannabis.webp');
+    background: url('../images/medicinal-cannabis.webp') no repeat center;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -346,14 +346,41 @@ q {
     font-size: 100%;
     background-color: #0d8502;
     color: #fafafa;
-
 }
 
 .join-button:hover {
     background-color: #fafafa;
     color: #64c251;
 }
+/* divert page */
+.diversion {
+    /* clear: left; */
+    background: url('../images/divert-page.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
+.diversion p, h2, h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4c54cca1;
+    text-decoration: none;
+    border: none;
+}
+
+#divert-page {
+    /* margin: 150px 10% 0 0; */
+    color: #fff;
+    /* background-color: #5a5cee99; */
+    max-width: 100%;
+    position: relative;
+    /* left: 10%; */
+    /* padding: 30px; */
+}
+
+/* conditions */
 #conditions {
     padding: 1em;
     background-color: #a7e4a7;
