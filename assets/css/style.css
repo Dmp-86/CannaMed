@@ -9,8 +9,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 300;
-    color: #272727;
+    font-weight: 400;
+    color: #070707;
 }
 
 /* headings and logo styling */
@@ -29,7 +29,9 @@ h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: forestgreen;
+    color: rgb(17, 70, 17);
+    border-bottom: 2px solid #000;
+    padding: 0.5em;
 }
 
 header {
@@ -108,12 +110,13 @@ nav a:hover {
 }
 
 footer {
-    background-color: #70b980;
+    background-color: #63e069;
     /* background: url('../images/weeeeeed.webp') no-repeat center center;
     background-size: cover; */
     padding: 2px;
     bottom: 0;
     text-align: center;
+    height: 100px;
 }
 
 .footer-text {
@@ -132,6 +135,7 @@ footer {
 
 footer p {
     color: black;
+    /* text-transform: uppercase; */
 }
 
 footer i {
@@ -157,7 +161,7 @@ footer i {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 40px 10px;
-    background-color: rgba(66, 148, 100, 0.8);
+    background-color: rgba(99, 224, 105, 0.6);
     bottom: 30px;
     position: absolute;
     margin: 0 2em;
@@ -192,9 +196,14 @@ footer i {
 
 /* main info styling */
 #main-info {
-    background-color: #e4f1cc;
+    background-color: #a7e4a7;
     padding: 1em;
 }
+
+#main-info p{
+    padding: 1em;
+}
+
 
 .center {
     width: 100%;
@@ -202,7 +211,7 @@ footer i {
 }
 
 #main-info h2 {
-    color: forestgreen;
+    color: rgb(17, 70, 17);
     text-transform: uppercase;
 }
 
@@ -210,13 +219,13 @@ footer i {
 
 #patient-journey {
     padding: 1em;
-    background-color: #e4f1cc;
+    background-color: #a7e4a7;
 }
 
 #patient-journey,
 #conditions,
 #testimonials h2 {
-    color: forestgreen;
+    color: rgb(17, 70, 17);
 }
 
 .start {
@@ -241,15 +250,15 @@ footer i {
 }
 
 blockquote {
-    background-color: #bdf58f;
+    background-color: #a8a7e6;
     text-align: center;
     padding: 20px;
-    width: calc(100% - 2em);
+    width: calc(80% - 2em);
 }
 
 /* testimonials */
 #testimonials {
-    background-color: #e4f1cc;
+    background-color: #94e298;
     color: #000000;
     /* margin: 2px;
     padding: 5px; */
@@ -260,13 +269,14 @@ blockquote {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #a7e4a7;
 }
 
 .quotes {
     color: #000000;
     text-align: left;
     padding: 10px;
-    background-color: #e4f1cc;
+    background-color: #b4f1bd;
     border: 0.5px solid #63d18d;
 }
 
@@ -346,13 +356,13 @@ q {
 hr {
     border-top: 1px solid #2c2c2c;
     width: 100%;
-    margin: 5px 0;
+    margin:  0;
 }
 
 #conditions {
     padding: 1em;
     /* border: 2px solid rgba(80, 236, 190, 0.6); */
-    background-color: #e4f1cc;
+    background-color: #a7e4a7;
     color: inherit;
     text-align: center;
 
@@ -367,18 +377,19 @@ hr {
     /* padding: 1em; */
     margin-left: auto;
     margin-right: auto;
-    */
+    padding: 0.5em;
 }
 
 #conditions li {
     border: 1px solid rgba(125, 245, 161, 0.6);
     text-align: center;
-    background-color: #e4f1cc;
+    background-color: rgb(177, 253, 177);
     color: #020202;
     padding: 2px;
     list-style: none;
     text-transform: uppercase;
-    padding: 1em;
+    font-weight: 400;
+    padding: 0.5em;
 }
 
 #conditions h3 {
