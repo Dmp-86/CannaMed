@@ -8,8 +8,8 @@ CannaMed will be useful for anyone who wants to look at Cannabis as an alternati
 You can view the deployed site here:
 (https://dmp-86.github.io/CannaMed/)
 
+![Mock-up of responsive design](documentation/air2.png)
 ![Mock-up of responsive design](documentation/air1.png)
-
 
 ## UX
 
@@ -21,11 +21,12 @@ You can view the deployed site here:
 - `#a7e4a7` used for background of main information sections. 
 - `#b1fdb1` used for highlighting list items in conditions section. 
 - `#b1fdb1` used for background of main areas. 
+- `#4c55cc99` used to highlight some text areas. 
 
 
-I used [coolors.co](https://coolors.co/a7e4a7-b1fdb1-63e069-008000-114611-a8a7e6-4a4a4f-3a3a3a) to generate my colour palette.
+I used [coolors.co](https://coolors.co/a7e4a7-b1fdb1-63e069-008000-114611-4c55cc-a8a7e6-4a4a4f-3a3a3a) to generate my colour palette.
 
-![screenshot](documentation/palette.png)
+![screenshot](documentation/palette%20update.png)
 
 
 ### Typography
@@ -44,8 +45,8 @@ I used [coolors.co](https://coolors.co/a7e4a7-b1fdb1-63e069-008000-114611-a8a7e6
 
 - **Navigation Bar**
 
-- Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical on each page to allow for easy navigation and consistentency in design aesthetics.
-This section will enable the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- Featured on all pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page. It is identical on each page to allow for easy navigation and consistentency in design aesthetics.
+This section will enable the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button.
 The navigation bar converts to a hamburger icon with a dropdown menu on screen-sizes of 750px and below. The menu is accessed by pressing the hamburger icon. This allows the content to fit in a structured manner on smaller devices. 
 
 ![screenshot](documentation/nav-main.png)
@@ -55,7 +56,7 @@ The navigation bar converts to a hamburger icon with a dropdown menu on screen-s
 - **The Hero Image & Hero Cover**
 
 - The hero section includes an image to display the main site content and some cover text to briefly describe the subject matter found on the site. The main hero image uses a high resolution image of a cannabis plant under full spectrum light. The colors of the image serve as a break to the standard green palette used across the site. This is intended to capture attention and provide visual indication of the subject matter. 
-The section uses a zoom feature to highlight the image for users. Included on top of the image, is a cover box with the name of the site and a brief description of the intended audience. 
+The section uses an animation zoom feature to highlight the image for users. Included on top of the image, is a cover box with the name of the site and a brief description of the intended audience. 
 
 ![screenshot](documentation/hero-img-cover.png)
 
@@ -94,7 +95,7 @@ This provides users with a quick reference guide to conditions that are eligible
 - **Testimonials section**
 
     - This section is broken into 4 quotes. The intention is to provide the user with real-life patient reviews for a range of different conditions and symptoms.
-    the section is responsive and the structure of the quotes will change based on the users screen-size. 
+    The section is responsive and the structure of the quotes will change based on the users screen-size. 
 
 ![screenshot](documentation/testimonials-fs.png)
 ![screenshot](documentation/testimonials-bl.png)
@@ -102,7 +103,7 @@ This provides users with a quick reference guide to conditions that are eligible
 - **Footer**
 
     - The footer section includes links to the relevant social media sites for CannaMed. The links will open to a new tab to allow easy navigation for the user. This negates the use of the 'back' button in the browser to allow for a more seamless user experience. 
-The footer is valuable to the user as it encourages them to keep connected via social media. It also encourages the user to becoe part of the social media communities. Included on the footer is the name of the site, a brief description of the purpose of the site and the developer information. 
+The footer is valuable to the user as it encourages them to keep connected via social media. It also encourages the user to become part of the social media communities. Included on the footer is the name of the site, a brief description of the purpose of the site and the developer information. 
 
 ![screenshot](documentation/footer.png)
 
@@ -139,8 +140,6 @@ With additional time to spend on this project, I believe the below features woul
     - Introduce a calculator into the site where users can simulate how much a monthly prescription will cost them, based on their individual needs. 
 
 ## Tools & Technologies Used
-
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
@@ -209,6 +208,8 @@ You can fork this repository by using the following steps:
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | ['Required' radio buttons](https://www.w3docs.com/snippets/html.html) | How-to guide | Make a radio button selection required |
+| [Wikipedia](https://en.wikipedia.org/wiki/Cannabis_in_the_United_Kingdom) | Main info | Cannabis History in the UK |
+| [Lyphe Group](https://lyphe.com/) | Patient Journey/Treatable Conditions/FAQs | Info used on main page |
 
 
 ### Media
