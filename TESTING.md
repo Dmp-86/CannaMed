@@ -16,26 +16,17 @@ with the project providing an easy and straightforward way for the users to achi
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
+- I used this link to validate my live deployed site: https://validator.w3.org/#validate_by_uri
+- I used this link to validate my divert html code: https://validator.w3.org/#validate_by_input
 
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html
-
-Sample HTML code validation documentation (tables are extremely helpful!):
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html) | ![screenshot](documentation/w3-check1.png) | Pass: No Errors |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html) | ![screenshot](documentation/w3-check2-gal.png) | Initial error - Section lacks header h2-h6 warning. Converted section to a div, negating the need for h2-h6 elements. End result: Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fcontact.html) | ![screenshot](documentation/w3-check3-cont.png) | Pass: No Errors |
+| Divert | [W3C](https://validator.w3.org/nu/#textarea) | ![screenshot](documentation/w3-check4-divert.png) | Pass: No Errors |
+
 
 ### CSS
 
