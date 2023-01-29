@@ -47,17 +47,13 @@ Sample CSS code validation documentation (tables are extremely helpful!):
 
 ## Browser Compatibility
 
-Use this space to discuss testing the live/deployed site on various browsers.
+I have tested the live deployed site on the following browsers to check for compatibility issues:
 
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
 - [Edge](https://www.microsoft.com/edge)
 - [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
+
 
 **IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
 
@@ -71,14 +67,10 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Minor CSS differences in footer |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
-| x | x | repeat for any other tested browsers |
+| Chrome | ![screenshot](documentation/chrome-browser-test.png) | Works as expected |
+| Firefox | ![screenshot](documentation/firefox-dev.png) | Works as expected  |
+| Edge | ![screenshot](documentation/edge-browser-test.png) | Works as expected |
+| Safari | ![screenshot](documentation/safari-broswer2.png) | Minor CSS differences |
 
 ## Responsiveness
 
@@ -91,8 +83,6 @@ The minimum requirement is for the following 3 tests:
 
 **IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
 
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
 
 If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
 It showcases a higher level of manual tests, and can be seen as a positive inclusion!
@@ -103,20 +93,20 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
-| x | x | repeat for any other tested sizes |
+| Personal Mobile - Samsung Galaxy s10 | ![screenshot](documentation/personal-device-home.jpg) | Works as expected |
+| Personal Mobile - Samsung Galaxy s10 | ![screenshot](documentation/personal-device-nav.jpg) | Works as expected |
+| Personal Mobile - Samsung Galaxy s10 | ![screenshot](documentation/personal-device-gal.jpg) | Works as expected |
+| Personal Mobile - Samsung Galaxy s10 | ![screenshot](documentation/personal-device-contact.jpg) | Works as expected |
+| Personal Mobile - Samsung Galaxy s10 | ![screenshot](documentation/personal-device-footer.jpg) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/galaxys20-devsnip.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/ipad-mini-devsnip.png) | Works as expected |
+| Desktop (DevTools)| ![screenshot](documentation/desktop-responsive.png) | Works as expected |
+| Microsoft Surface Pro 7 (DevTools)| ![screenshot](documentation/surface-pro-7-responsive.png) | Works as expected |
+| iPhone 12 (DevTools) | ![screenshot](documentation/iphone12-devsnip.png) | Works as expected |
+
 
 ## Lighthouse Audit
 
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
 
 **IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
 
@@ -149,7 +139,8 @@ For JavaScript and Python applications, it's best to screenshot the errors to in
 
     - To fix this, I _____________________.
 
-
+Add A Favicon to A Website in HTML 
+https://www.youtube.com/watch?app=desktop&v=kEf1xSwX5D8
 
 ### GitHub **Issues**
 
