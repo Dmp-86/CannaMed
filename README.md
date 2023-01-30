@@ -206,7 +206,6 @@ You can fork this repository by using the following steps:
 | --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | ['Required' radio buttons](https://www.w3docs.com/snippets/html.html) | How-to guide | Make a radio button selection required |
 | [Wikipedia](https://en.wikipedia.org/wiki/Cannabis_in_the_United_Kingdom) | Main info | Cannabis History in the UK |
 | [Lyphe Group](https://lyphe.com/) | Patient Journey/Treatable Conditions/FAQs | Info used on main page |

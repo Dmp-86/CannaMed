@@ -9,26 +9,17 @@ Return back to the [README.md](README.md) file.
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-- I used this link to validate my live deployed site: https://validator.w3.org/#validate_by_uri
-- I used this link to validate my divert html code: https://validator.w3.org/#validate_by_input
-
-
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html) | ![screenshot](documentation/w3-check1.png) | Pass: No Errors |
-| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Findex.html) | ![screenshot](documentation/w3-check2-gal.png) | Initial error - Section lacks header h2-h6 warning. Converted section to a div, negating the need for h2-h6 elements. End result: Pass: No Errors |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fgallery.html) | ![screenshot](documentation/w3-check2-gal.png) | Initial error - Section lacks header h2-h6 warning. Converted section to a div, negating the need for h2-h6 elements. End result: Pass: No Errors |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fcontact.html) | ![screenshot](documentation/w3-check3-cont.png) | Pass: No Errors |
-| Divert | [W3C](https://validator.w3.org/nu/#textarea) | ![screenshot](documentation/w3-check4-divert.png) | Pass: No Errors |
+| Divert | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FDmp-86.github.io%2FCannaMed%2Fdivert.html) | ![screenshot](documentation/w3-divert.png) | Pass: No Errors |
 
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
-
-- I used the live deployed site for testing, at the following link : https://jigsaw.w3.org/css-validator/#validate_by_uri
-
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdmp-86.github.io%2FCannaMed%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
 
 
 | File | Jigsaw URL | Screenshot | Notes |
@@ -98,25 +89,7 @@ My first test produced some performance issues due to chrome extensions (see scr
 
 [Add A Favicon to A Website in HTML](https://www.youtube.com/watch?app=desktop&v=kEf1xSwX5D8)
 
-### GitHub **Issues**
-
-
-**Fixed Bugs**
-
-All previously closed/fixed bugs can be tracked [here](https://github.com/Dmp-86/CannaMed/issues?q=is%3Aissue+is%3Aclosed).
-
-| Bug | Status |
-| --- | --- |
-| [JS Uncaught ReferenceError: `foobar` is undefined/not defined](https://github.com/Dmp-86/CannaMed/issues/1) | Closed |
-| [Python `'ModuleNotFoundError'` when trying to import module from imported package](https://github.com/Dmp-86/CannaMed/issues/2) | Closed |
-| [Django `TemplateDoesNotExist` at /appname/path appname/template_name.html](https://github.com/Dmp-86/CannaMed/issues/3) | Closed |
-
-**Open Issues**
-
-Any remaining open issues can be tracked [here](https://github.com/Dmp-86/CannaMed/issues).
-
 
 ## Unfixed Bugs
-
 
 There are no remaining bugs that I am aware of.
