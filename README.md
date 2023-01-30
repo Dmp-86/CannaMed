@@ -155,6 +155,52 @@ With additional time to spend on this project, I believe the below features woul
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
+## Version Control
+
+For the below commits, I have exceeded the 50 character recommendation in the description. I am aware of the issue with lengthy commit messages, and going forward I will keep them at 50 characters or less. 
+I considered altering the commit messages before submission, however I did not want the last few weeks worth of commits to appear like they were done in one push this morning. 
+
+- Commit 1
+'Complete lighthouse audit on all pages, attach screenshots to documentation folder and reinstate divert refresh function'
+b872ff53bd25cb7d4cf2e6e3da5a63b9c5b1a346
+
+- Commit 2
+'Fix bug in gallery page from validator to add div instead of section element.'
+48a7c7bd1116c88b579f0c7b7b51a24d3800d514
+
+- Commit 3
+'Add lighthouse images to documentation folder, and add info on credits within readme'
+592b07df43f046a5bfd2bec7bfef95d33cafb76f
+
+- Commit 4
+'Style anchor elements on divert page, and links on footer to avoid blue icons when the link is pressed'
+036a96f061285ff51e35c3dba178f92c48fd7561
+
+- Commit 5
+'Update readme document with additional information to explain more features'
+4c0c4dba8297c782b028dd7513eb0bc44e57ac3c
+
+- Commit 6
+'Expand info in readme.md file, and include screenshots of responsive design, navigation and hero image'
+d4e350a71245890cd7c0ca7fdad48d259599c3c8
+
+- Commit 7
+'Restyle blockquotes, and add padding for paragraphs to improve aesthetics'
+0ffc6353db5c13d853c9e9a18457ec12afe4b9b0
+
+- Commit 8
+'Style header and nav to be responsive in mobile view, and add a divert page to contact form'
+402b3b64bac0db7cf3bdada28f8b6995dd2b50f3
+
+- Commit 9
+'Further testing of media queries for conditions, testimonials and journey section'
+69fb9070e168fb274ddfc03d73659297c1c0fa33
+
+- Commit 10
+'Change styling issues, apply padding to footer anchor elements and patient journey section'
+e3f7cff310da088a6a160e6b203e7c18ff448d87
+
+
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
